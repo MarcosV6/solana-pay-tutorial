@@ -1,0 +1,10 @@
+Creating token...
+Token created: 4Gt497HKui8PWd7yDNYLKDZJH4kLBPf4sGnyAejbjKuH
+Creating token account for the shop...
+Token account created: BpELMKSEgC7dHJSacbQpWr8hxMPM9c65u64k4PMavWyN
+Minting 1 million coupons to the shop account...
+Minted 1 million coupons to the shop account
+{
+  myCouponAddress: '4Gt497HKui8PWd7yDNYLKDZJH4kLBPf4sGnyAejbjKuH',
+  shopCouponAddress: 'BpELMKSEgC7dHJSacbQpWr8hxMPM9c65u64k4PMavWyN',
+  balance: '1,000,000'

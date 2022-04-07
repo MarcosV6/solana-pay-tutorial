@@ -26,8 +26,8 @@ type ErrorOutput = {
 
 function get(res: NextApiResponse<MakeTransactionGetResponse>) {
   res.status(200).json({
-    label: "Cookies Inc",
-    icon: "https://freesvg.org/img/1370962427.png",
+    label: "Just Donuts",
+    icon: "https://freesvg.org/img/Pink-Donut.png",
   })
 }
 
@@ -169,7 +169,7 @@ async function post(
 
     // Insert into database: reference, amount
 
-    const message = buyerGetsCouponDiscount ? "50% Discount! 🍪" : "Thanks for your order! 🍪"
+    const message = buyerGetsCouponDiscount ? "50% Discount! " : "Thanks for your order! "
 
     // Return the serialized transaction
     res.status(200).json({

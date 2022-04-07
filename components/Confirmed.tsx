@@ -18,7 +18,7 @@ export default function Confirmed() {
   return (
     <CircularProgressbar value={percentage} text={text} styles={
       buildStyles({
-        pathColor: '#00BA00',
+        pathColor: '#04d9ff',
       })
     } />
   )

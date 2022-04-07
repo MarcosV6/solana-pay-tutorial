@@ -35,7 +35,7 @@ export default function Checkout() {
     amount,
     reference,
     label: "Just Donuts",
-    message: "Thanks for your order! 🍪",
+    message: "Thanks for your order! 🍩",
   }
 
   // Encode the params into the format shown
@@ -80,7 +80,7 @@ export default function Checkout() {
 
   return (
     <div className="flex flex-col gap-8 items-center">
-      <BackLink href='/shop'>Cancel</BackLink>
+      <BackLink href='/'>Cancel</BackLink>
 
       <PageHeading>Checkout ${amount.toString()}</PageHeading>
 
